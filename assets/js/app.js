@@ -99,7 +99,7 @@ function successHandle(statesData) {
         .append("text")
         .attr("x", d => xLinearScale(d.poverty))
         .attr("y", d => yLinearScale(d.obesity)) 
-        .style("font-size", "12px")
+        .style("font-size", "10px")
         .attr("text-anchor", "middle")        
         .style('fill', 'black')        
         .text(d => (d.abbr));
@@ -109,6 +109,11 @@ function successHandle(statesData) {
     var toolTip = d3.tip()
         .attr("class", "tooltip")
         .offset([80, -50])
+        .style("background", "lightgrey")
+        .style("border", "solid")
+        .style("border-color", "red")
+        .style("border-width", '1px')
+        .style("border-radius", "5px")        
         .html(function (d) {
         return (`${d.state}<br>Poverty: ${d.poverty}%<br>Obesity: ${d.obesity}% `);
         });
