@@ -10,4 +10,4 @@ the trend is not absolute, there are some clear outliers. For example, there are
 such as North Dakota with relatively low poverty and high obesity rates..
 
 ### Site Image
-[![INSERT YOUR GRAPHIC HERE](static/images/readImage.png)]()
+[![INSERT YOUR GRAPHIC HERE](assets/images/readImage.png)]()
