@@ -99,7 +99,7 @@ function successHandle(statesData) {
         .append("text")
         .attr("x", d => xLinearScale(d.poverty))
         .attr("y", d => yLinearScale(d.obesity)) 
-        .style("font-size", "10px")
+        .style("font-size", "8px")
         .attr("text-anchor", "middle")        
         .style('fill', 'black')        
         .text(d => (d.abbr));
