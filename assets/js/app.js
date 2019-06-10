@@ -113,7 +113,8 @@ function successHandle(statesData) {
         .style("border", "solid")
         .style("border-color", "red")
         .style("border-width", '1px')
-        .style("border-radius", "5px")        
+        .style("border-radius", "5px")
+        .style("padding", "2px")        
         .html(function (d) {
         return (`${d.state}<br>Poverty: ${d.poverty}%<br>Obesity: ${d.obesity}% `);
         });
