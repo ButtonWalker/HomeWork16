@@ -8,3 +8,6 @@ incidences of obesity. Mississippi ranks the highest in terms of obesity and pov
 while states such as Hawaii enjoy economic prosperity and a fitter population. However, 
 the trend is not absolute, there are some clear outliers. For example, there are states 
 such as North Dakota with relatively low poverty and high obesity rates..
+
+### Site Image
+[![INSERT YOUR GRAPHIC HERE](static/images/readImage.png)]()
