@@ -1,0 +1,77 @@
+.aText {
+  font-family: Arial;
+  font-size: 16px;
+  text-anchor: middle;
+}
+
+.axisText {
+  font-family: Arial;
+  font-weight: bold;
+  fill: black;
+  text-anchor: middle;
+}
+
+.active {
+  font-weight: bold;
+  fill: black;
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.inactive {
+  font-weight: lighter;
+  fill: dimgrey;
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.inactive:hover {
+  fill: black;
+  cursor: pointer;
+}
+
+/* font size dependent on radius, see app.js */
+.stateText {
+  font-family: Arial;
+  fill: white;
+  text-anchor: middle;
+}
+
+.stateCircle {
+  fill: dimgrey;
+  stroke: white;
+}
+
+.chart {
+  display: block;
+  margin: 0;
+}
+
+.d3-tip {
+  padding: 6px;
+  font-size: 12px;
+  line-height: 1;
+  line-height: 1.5em;
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 4px;
+}
+
+/* Mobile Rules */
+@media screen and (max-width: 530px) {
+  .stateText {
+    display: none;
+  }
+
+  .aText {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .aText {
+    font-size: 13px;
+  }
+}
